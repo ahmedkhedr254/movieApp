@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:movies_app/app/constants.dart';
 import 'package:movies_app/generated/l10n.dart';
@@ -20,6 +21,10 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   @override
   Widget build(BuildContext contextt) {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     //we will add here Consumer of LangProvider so it can listen to any change in to any change of language and update the language of all app
     return Consumer<LangProvider>(builder: (context, prov, _) {
       //we will add here ChangeNotifierProvider of ThemeProvider so it can listen to any change bewteen light mode and dark mode

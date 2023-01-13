@@ -21,6 +21,7 @@ class ThemeProvider extends ChangeNotifier {
         themeMode = ThemeMode.light;
       }
     }
+    notifyListeners();
   }
   //in this method we will check if we now in dark or light mode using SchedulerBinding
   bool get isDarkMode {

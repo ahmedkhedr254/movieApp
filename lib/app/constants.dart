@@ -1,0 +1,4 @@
+
+String serverUrl="https://api.themoviedb.org";
+String currentLanguage="en";
+String authToken="eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5YzgyYzM1NzdkZGFhMzYxM2I4ZjEzYjViMGMxODdhMiIsInN1YiI6IjYwMTQyOGM5M2UwOWYzMDAzZDNmOGZiOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jlAp9djszi_wMR_gSItaEj-M-dLj8u5UTKG4opQ-LbI";

@@ -1,0 +1,10 @@
+{
+  "discover": "Discover",
+  "search": "Search",
+  "setting": "Setting",
+  "errorMessage": "Something went wrong try again",
+  "darkMode": "Dark Mode",
+  "language": "Language",
+  "lastSearch": "Last Search",
+  "noResult": "No Result"
+}
